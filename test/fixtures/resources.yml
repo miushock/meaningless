@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  resource_id: MyString
+  resource_type: MyString
+  tags: MyString
+  owner: MyString
+  beneficiary: MyString
+  sharing_policy: MyString
+  content: 
+
+two:
+  resource_id: MyString
+  resource_type: MyString
+  tags: MyString
+  owner: MyString
+  beneficiary: MyString
+  sharing_policy: MyString
+  content: 
