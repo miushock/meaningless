@@ -7,6 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  
+  <!-- added flash display per request of devise gem installation -->
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 
 <%= yield %>
 

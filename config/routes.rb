@@ -1,4 +1,9 @@
 Freelog::Application.routes.draw do
+
+  devise_for :users
+  #added per request of devise gem
+  root :to => "home#index"
+
   resources :resources
 
   # The priority is based upon order of creation: first created -> highest priority.
